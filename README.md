@@ -10,11 +10,14 @@
 
 ### Git Reset
 写完代码后，我们一般这样
-`git add . `//添加所有文件
-`git commit -m "本功能全部完成"`
+1. `git add . `//添加所有文件
+2. `git commit -m "本功能全部完成"`
+
 执行完commit后，想撤回commit，怎么办？
-`git reset 用于撤销 commit`
-`git reset --soft HEAD^`
+
+1. `git reset 用于撤销 commit`
+2. `git reset --soft HEAD^`
+
 > --mixed 
 意思是：不删除工作空间改动代码，撤销commit，并且撤销git add . 操作
 这个为默认参数,git reset --mixed HEAD^ 和 git reset HEAD^ 效果是一样的。
@@ -41,7 +44,7 @@
 回退到指定版本。
 
 
-### git stash
+### Git Stash
 暂存功能
 有些文件正在修改，但是有一些紧急的事情要切换 分支。可以先把这些文件 git stash 暂存到暂存区。
 待再次切换到该分支时，
