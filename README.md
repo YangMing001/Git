@@ -50,6 +50,7 @@
 有些文件正在修改，但是有一些紧急的事情要切换 分支。可以先把这些文件 git stash 暂存到暂存区。
 待再次切换到该分支时，
 
+
 1. `git stash list` 查看暂存的标签
 2. `git stash apply` 恢复，但是恢复后，stash内容并不删除，你需要用`git stash drop`来删除；
 3. `git stash pop`，恢复的同时把stash内容也删了
