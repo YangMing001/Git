@@ -19,6 +19,8 @@
 1. `git reset 用于撤销 commit`
 2. `git reset --soft HEAD^`
 
+
+
 > --mixed 
 意思是：不删除工作空间改动代码，撤销commit，并且撤销git add . 操作
 这个为默认参数,git reset --mixed HEAD^ 和 git reset HEAD^ 效果是一样的。
