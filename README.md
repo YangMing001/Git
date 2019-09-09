@@ -1,4 +1,5 @@
 ### Git Revert
+
 取反，对某次 commit 反向操作。
 比如 上次commit 中 添加了一个文件， revert 就是 把这个文件删掉
 
